@@ -1,0 +1,6 @@
+authors = ["Joshua Laughner <jlaugh@caltech.edu>"]
+name = "JLLUtils"
+uuid = "86f608ae-f8f2-11e8-3ed2-938e6edba5df"
+version = "0.1.0"
+
+[deps]
