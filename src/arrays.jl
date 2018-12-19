@@ -66,4 +66,24 @@ function _compute_perm_vec(A, dim, pos)
     return perm_vec;
 end
 
+
+"""
+    seq_mat(dims...)
+    seq_mat(T::DataType, dims...)
+
+Create a matrix (optionally of the type `T`, defaults to Float64) with the
+dimensions `dims` where each element's value is its linear index.
+"""
+function seq_mat(dims...)
+    return seq_mat(Float64, dims...);
+end
+
+function seq_mat(T::DataType, dims...)
+    mat = zeros(T, dims);
+    for i = 1:length(mat)
+        mat[i] = i;
+    end
+    return mat;
+end
+
 end
