@@ -1,0 +1,7 @@
+°: degs, deg, Degs, degrees, Degrees
+m: meter, metre, meters, meters
+hr: hour
+percent: %
+std_m: std m
+nm: nanometers
+: #
